@@ -1,8 +1,8 @@
 module.exports = {
   theme: "reco",
 
-  title: "Lei111222",
-  description: "A simple and beautiful vuepress blog theme .",
+  title: "这是博客？",
+  description: "",
   dest: "public",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -16,10 +16,10 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: "Home", link: "/", icon: "reco-home" },
-      { text: "TimeLine", link: "/timeline/", icon: "reco-date" },
+      { text: "主页", link: "/", icon: "reco-home" },
+      { text: "时间轴", link: "/timeline/", icon: "reco-date" },
       {
-        text: "12121",
+        text: "不知道是什么",
         icon: "reco-message",
         items: [{ text: "vuepress-reco", link: "/docs/theme-reco/" }],
       },
@@ -33,27 +33,27 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: "Category", // 默认 “分类”
+        text: "分类", // 默认 “分类”
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: "Tag", // 默认 “标签”
+        text: "标签", // 默认 “标签”
       },
     },
     friendLink: [
       {
-        title: "午后南杂",
+        title: "L",
         desc: "Enjoy when you can, and endure when you must.",
-        email: "1156743527@qq.com",
-        link: "https://www.recoluan.com",
+        email: "l2352416774@gmail.com",
+        // link: "",
       },
-      {
-        title: "222222",
-        desc: "12312312",
-        avatar:
-          "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: "https://vuepress-theme-reco.recoluan.com",
-      },
+      // {
+      //   title: "222222",
+      //   desc: "12312312",
+      //   avatar:
+      //     "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+      //   link: "https://vuepress-theme-reco.recoluan.com",
+      // },
     ],
 
     logo: "/logo.png",
@@ -63,15 +63,15 @@ module.exports = {
     // 自动形成侧边导航
     // sidebar: 'auto',
     // 最后更新时间
-    lastUpdated: "Last Updated",
+    lastUpdated: "就在刚刚",
     // 作者
-    author: "reco_luan",
+    author: "LeiWangHao",
     // 作者头像
     authorAvatar: "/avatar.png",
     // 备案号
-    record: "xxxx",
+    // record: "xxxx",
     // 项目开始时间
-    startYear: "2017",
+    startYear: "2022",
     /**
      * 密钥 (if your blog is private)
      */
