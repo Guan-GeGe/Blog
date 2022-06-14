@@ -2,7 +2,7 @@ module.exports = {
   theme: "reco",
 
   title: "这是博客？",
-  description: " ",
+  description: "1 ",
   dest: "public",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -63,7 +63,7 @@ module.exports = {
     // 自动形成侧边导航
     // sidebar: 'auto',
     // 最后更新时间
-    lastUpdated: "就在刚刚",
+    lastUpdated: "就在刚 刚 ",
     // 作者
     author: "LeiWangHao",
     // 作者头像
