@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "author": "reco_luan",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
+    "dev": "vuepress dev . --open",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "vuepress": "1.8.2",
