@@ -2,7 +2,7 @@ module.exports = {
   theme: "reco",
 
   title: "这是博客？",
-  description: "",
+  description: " ",
   dest: "public",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
