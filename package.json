@@ -4,7 +4,7 @@
   "author": "reco_luan",
   "scripts": {
     "dev": "vuepress dev . --open",
-    "build": "vuepress build docs",
+    "build": "vuepress build .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "bash deploy.sh"
   },
